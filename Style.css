@@ -79,7 +79,7 @@ body{
 }
 
 .sub_banner{
-    background-color: white;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +87,7 @@ body{
 }
 
 .subtitulo{
-    color: black;
+    color: #FFA600;
     font-size: 24px;
     margin: 0;
     font-weight: 400;
@@ -98,7 +98,9 @@ body{
 }
 
 .producto{
-    margin-top: 12px;
+    margin-top: 16px;
+    background-color: white;
+    padding: 10px 0px;
 }
 
 .items_producto{
@@ -119,6 +121,8 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-right: 16px;
 }
 
 .detalles_navbar{

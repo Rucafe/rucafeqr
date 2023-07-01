@@ -1,0 +1,121 @@
+
+a:hover { 
+    text-decoration: none !important;
+    color: white !important;
+}      
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #131515 !important;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background-image: url(img/bgbl.jpg);
+}
+
+.bg_navbar{
+    background-color: #FFA600;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img_logo{
+    height: 100px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #FFA600;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.div_cafeteria, .div_bebidas, .div_sandwich, .div_promociones{
+    background-color: #FFA600;
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none !important;
+    padding: 0px 20px;
+}
+
+.iconos, .redes{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redes{
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    /* font-weight: 600; */
+}
+
+.sub_banner{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.subtitulo{
+    color: black;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.icon_producto{
+    height: 30px;
+}
+
+.producto{
+    margin-top: 12px;
+}
+
+.items_producto{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+.titulo_navbar{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.descripción{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(219, 219, 219);
+}
+
+.detalles_navbar{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+}

@@ -58,10 +58,6 @@ body{
     color: black;
 }
 
-.div_cafeteria{
-    /* background-image: url(img/Cafeteria_Infusiones.jpg); */
-}
-
 .iconos, .redes{
     display: flex;
     justify-content: center;
@@ -113,6 +109,14 @@ body{
     font-weight: 600;
     margin: 0;
     color: rgb(0, 0, 0);
+
+}
+
+.frases{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: green;
 }
 
 .titulo_navbar{

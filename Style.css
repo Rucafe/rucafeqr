@@ -32,7 +32,7 @@ body{
 }
 
 
-.div_cafeteria, .div_bebidas, .div_sandwich, .div_promociones, .div_sorteo, .div_patrio{
+.div_cafeteria, .div_bebidas, .div_sandwich, .div_promociones, .div_sorteo, .div_cumple{
     background-color: #FFA600;
     /* background-image: url(img/Piso.jpg); */
     display: flex;
@@ -141,9 +141,13 @@ body{
     font-weight: 400;
 }
 
-.div_patrio{
-    background-color: rgb(214, 255, 254);
-    color: rgb(0, 98, 172);
-    /* font-size: 32px; */
+.div_cumple{
+    background-color: #f2ffd3;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    height: auto;
+    padding: 20px 20px;
+
+
 
 }

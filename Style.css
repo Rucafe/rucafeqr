@@ -53,6 +53,11 @@ body{
     border: 2px black solid;
 }
 
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
 .div_sorteo{
     background-color: white;
     color: black;
@@ -109,7 +114,22 @@ body{
     font-weight: 600;
     margin: 0;
     color: rgb(0, 0, 0);
+}
 
+.items_descripcion{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.font_TituloDestacado{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #036100;
 }
 
 .frases{
@@ -147,7 +167,11 @@ body{
     font-size: 26px;
     height: auto;
     padding: 20px 20px;
+}
 
 
-
+.card_lapaulina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

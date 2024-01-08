@@ -10,18 +10,15 @@ body{
 }
 
 .bg_navbar{
-    background-color: #FFA600;
-    padding: 20px 20px;
+    background: #FBA403;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    border-bottom: 3px black solid;
+    padding: 20px 40px !important;
+    border-radius: 0px 0px 16px 16px;
 }
 
-.img_logo{
-    height: 100px;
-}
+
 
 .titulo{
     display: flex;
@@ -29,6 +26,12 @@ body{
     color: #FFA600;
     font-size: 30px;
     font-weight: 800;
+}
+
+.texto_navbar{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
@@ -51,6 +54,30 @@ body{
     padding: 0px 20px;
     box-shadow: 2px 2px 1px black;
     border: 2px black solid;
+}
+
+
+.div_promo{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 1px #FFA600;
+    border: 2px #FFA600 solid;
+}
+
+
+.instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logos{
